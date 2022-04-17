@@ -1,0 +1,138 @@
+@font-face {
+    font-family: Fuente1;
+    src: url("..//Fuentes/Wrong\ Free\ Trial.otf");
+  }
+
+@font-face {
+    font-family: Fuente2 ;
+    src: url("..//Fuentes/GODOFWAR.TTF");
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    margin: 0;
+    background-color: rgba(138, 137, 137, 0.548);
+
+}
+header{
+    background-color: black;
+}
+h1{
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+    font-family: Fuente1;
+}
+.Tarjetas{
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(auto-fit , minmax(280px, 1fr))
+}
+
+.naked{
+    display: grid;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+.enduro{
+    display: grid;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+.supermotard{
+    display: grid;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+.supersport{
+    display: grid;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+.scooter{
+    display: grid;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+.maxiscooter{
+    display: grid;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+img{
+    width: 100%;
+    border-radius: 1rem;
+}
+h2{
+    font-size: 3rem;
+    padding-left: 0.5rem;
+    font-family: Fuente2;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+p{
+    font-size: 2rem;
+    padding-left: 0.8rem;
+}
+ul{
+    font-size: 2rem;
+}
+
+h1 .animated__animatedanimate_backInDown {
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+    font-family: Fuente1;
+}
+/*tabla*/
+
+table, th, td {
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 2rem;
+}
+
+/*icono*/
+i{
+    font-size: x-large;
+}
+/*MEDIA*/
+@media only screen and (max-width: 500px){
+    header{
+        background: linear-gradient(to bottom, #003366 0%, #3399ff 100%);
+    }
+}
+
+@media screen and (min-width:500px) and (max-width:  915px){
+    header{
+        background: linear-gradient(to right, #ff9966 0%, #0033cc 136%);
+    }
+}
+
+@media screen and (min-width: 915px) {
+    header{
+        background: linear-gradient(to right, #800000 -11%, #ffff66 136%);
+    }
+    
+}
+/*Boton*/
+button{
+    background-color: rgb(250, 65, 0);
+    color: black;
+    border: solid  black 1px;
+    border-radius:1rem;
+}
+/*iframe*/
+iframe{
+    width: 100%;
+}
+
